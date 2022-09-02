@@ -1,0 +1,407 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  align-items: stretch;
+  flex-direction: column;
+  background-size: auto;
+  justify-content: space-between;
+  background-image: url('https://cdn.discordapp.com/attachments/860293419443290182/1014497713938780190/unknown.png');
+  background-repeat: repeat;
+  background-position: center;
+}
+.home-header {
+  width: 100%;
+  height: 693px;
+  display: flex;
+  position: relative;
+  box-shadow: 5px 5px 60px 0px #111315;
+  align-items: flex-start;
+  font-family: Tajawal;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url('https://cdn.discordapp.com/attachments/860293419443290182/1014478196084838451/73663161434ea35812a20da2e517f102.jpg');
+}
+.home-status-bar {
+  width: 100%;
+  height: 96px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-home {
+  top: 0px;
+  color: rgb(255, 255, 255);
+  right: 0px;
+  width: 91px;
+  bottom: 0px;
+  cursor: pointer;
+  height: 34px;
+  position: absolute;
+  align-self: center;
+  margin-top: auto;
+  text-align: center;
+  transition: 0.3s;
+  margin-left: auto;
+  border-width: 0px;
+  margin-right: 308px;
+  margin-bottom: auto;
+  background-color: rgba(255, 255, 255, 0.16);
+}
+.home-home:hover {
+  background-color: #f40552;
+}
+.home-text {
+  font-style: normal;
+  font-weight: 500;
+}
+.home-discord {
+  top: 0px;
+  color: rgb(255, 255, 255);
+  right: 0px;
+  width: 91px;
+  bottom: 0px;
+  cursor: pointer;
+  height: 34px;
+  position: absolute;
+  align-self: center;
+  margin-top: auto;
+  text-align: center;
+  transition: 0.3s;
+  margin-left: auto;
+  border-width: 0px;
+  margin-right: 203px;
+  margin-bottom: auto;
+  background-color: rgba(255, 255, 255, 0.16);
+}
+.home-discord:hover {
+  background-color: #f40552;
+}
+.home-text03 {
+  font-style: normal;
+  font-weight: 500;
+}
+.home-store {
+  top: 0px;
+  color: rgb(255, 255, 255);
+  right: 0px;
+  width: 91px;
+  bottom: 0px;
+  cursor: pointer;
+  height: 34px;
+  position: absolute;
+  align-self: center;
+  margin-top: auto;
+  text-align: center;
+  transition: 0.3s;
+  margin-left: auto;
+  border-width: 0px;
+  margin-right: 100px;
+  margin-bottom: auto;
+  background-color: rgba(255, 255, 255, 0.16);
+}
+.home-store:hover {
+  background-color: #f40552;
+}
+.home-text06 {
+  font-style: normal;
+  font-weight: 500;
+}
+.home-logo {
+  width: 60px;
+  height: 58px;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-unit);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-fiveunits);
+}
+.home-join-server {
+  top: 297px;
+  color: rgb(255, 255, 255);
+  right: 91px;
+  width: 328px;
+  cursor: pointer;
+  height: 103px;
+  position: absolute;
+  font-size: 18px;
+  align-self: flex-end;
+  box-shadow: 0px 0px 20px 0px rgba(176, 21, 72, 0.28);
+  text-align: center;
+  transition: 0.3s;
+  border-color: #b01548;
+  border-width: 2px;
+  border-radius: 10px;
+  backgroun-filter: blur(var(--blur-radius));
+  background-color: rgba(176, 21, 72, 0.15);
+}
+.home-join-server:hover {
+  background-color: rgba(232, 9, 81, 0.32);
+}
+.home-text10 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.home-text11 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.home-text13 {
+  color: #dedede;
+  font-size: 16px;
+}
+.home-download-game {
+  top: 423px;
+  color: rgb(255, 255, 255);
+  right: 92px;
+  width: 328px;
+  cursor: pointer;
+  height: 36px;
+  position: absolute;
+  font-size: 18px;
+  align-self: flex-end;
+  box-shadow: 0px 0px 10px 0px #1c2029;
+  text-align: center;
+  transition: 0.3s;
+  border-color: #ffffff;
+  border-width: 1.5px;
+  border-radius: 10px;
+  padding-bottom: 6px;
+  backgroun-filter: blur(var(--blur-radius));
+  background-color: rgba(28, 32, 41, 0.79);
+}
+.home-download-game:hover {
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.86);
+}
+.home-text15 {
+  font-size: 16px;
+}
+.home-ask-me {
+  left: 0px;
+  color: rgb(255, 255, 255);
+  right: 0px;
+  width: 188px;
+  bottom: -327px;
+  cursor: pointer;
+  height: 36px;
+  margin: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: flex-end;
+  box-shadow: 0px 0px 10px 0px #1c2029;
+  text-align: center;
+  transition: 0.3s;
+  border-color: #ffffff;
+  border-width: 1.5px;
+  border-radius: 10px;
+  padding-bottom: 6px;
+  backgroun-filter: blur(var(--blur-radius));
+  background-color: rgba(28, 32, 41, 0.79);
+}
+.home-ask-me:hover {
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.86);
+}
+.home-text18 {
+  font-size: 16px;
+}
+.home-text19 {
+  font-style: normal;
+  font-weight: 600;
+}
+.home-you-can {
+  top: 300px;
+  left: 21px;
+  color: rgb(255, 255, 255);
+  width: 656px;
+  height: 131px;
+  margin: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: flex-start;
+  text-align: center;
+  font-weight: 500;
+}
+.home-text21 {
+  font-weight: 700;
+}
+.home-text22 {
+  font-style: normal;
+}
+.home-text23 {
+  font-style: normal;
+  font-weight: 500;
+}
+.home-support {
+  left: 0px;
+  color: rgb(255, 255, 255);
+  right: 0px;
+  width: 656px;
+  bottom: -270px;
+  height: 131px;
+  margin: auto;
+  position: absolute;
+  font-size: 25px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: center;
+  font-weight: 300;
+}
+.home-we-devlopers {
+  left: 0px;
+  color: rgb(255, 255, 255);
+  right: 0px;
+  width: 272px;
+  bottom: -126px;
+  height: 48px;
+  margin: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: flex-start;
+  text-align: center;
+  font-weight: 500;
+}
+.home-perfor {
+  left: 0px;
+  color: rgb(202, 202, 181);
+  right: 0px;
+  width: 656px;
+  bottom: -57px;
+  height: 81px;
+  margin: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: flex-start;
+  text-align: center;
+  font-weight: 500;
+}
+.home-players {
+  top: 253px;
+  color: rgb(255, 255, 255);
+  right: 136px;
+  position: absolute;
+  font-size: 18px;
+  font-weight: 500;
+}
+.home-text34 {
+  font-style: normal;
+  font-weight: 300;
+}
+.home-text36 {
+  font-style: normal;
+  font-weight: 600;
+}
+.home-text37 {
+  font-style: normal;
+  font-weight: 300;
+}
+.home-text38 {
+  font-style: normal;
+  font-weight: 600;
+}
+.home-footer {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  box-shadow: 5px 5px 40px 0px #111315;
+  margin-top: 403px;
+  align-items: flex-start;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://cdn.discordapp.com/attachments/860293419443290182/1014478196084838451/73663161434ea35812a20da2e517f102.jpg');
+  background-position: bottom;
+}
+.home-home1 {
+  top: 21px;
+  left: 0px;
+  color: rgb(255, 255, 255);
+  right: 250px;
+  width: 112px;
+  cursor: pointer;
+  height: 34px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+  text-align: center;
+  transition: 0.3s;
+  border-width: 0px;
+  background-color: rgba(255, 255, 255, 0.16);
+}
+.home-home1:hover {
+  background-color: #f40552;
+}
+.home-text39 {
+  font-style: normal;
+  font-weight: 500;
+}
+.home-home2 {
+  top: 21px;
+  left: 0px;
+  color: rgb(255, 255, 255);
+  right: 0px;
+  width: 112px;
+  cursor: pointer;
+  height: 34px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+  text-align: center;
+  transition: 0.3s;
+  border-width: 0px;
+  background-color: rgba(255, 255, 255, 0.16);
+}
+.home-home2:hover {
+  background-color: #f40552;
+}
+.home-text42 {
+  font-style: normal;
+  font-weight: 500;
+}
+.home-home3 {
+  top: 21px;
+  left: 250px;
+  color: rgb(255, 255, 255);
+  right: 0px;
+  width: 112px;
+  cursor: pointer;
+  height: 34px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+  text-align: center;
+  transition: 0.3s;
+  border-width: 0px;
+  background-color: rgba(255, 255, 255, 0.16);
+}
+.home-home3:hover {
+  background-color: #f40552;
+}
+.home-text45 {
+  font-style: normal;
+  font-weight: 500;
+}
+.home-you-can1 {
+  left: 0px;
+  color: rgb(255, 255, 255);
+  right: 0px;
+  width: 656px;
+  bottom: 0px;
+  height: 74px;
+  margin: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: flex-start;
+  text-align: center;
+  font-weight: 500;
+}
+.home-text49 {
+  font-weight: 500;
+}
